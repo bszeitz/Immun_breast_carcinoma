@@ -1,4 +1,4 @@
-# Immun_breast_carcinoma
+# Immune_breast_carcinoma
 
 This is the custom R code used for the NanoString data analysis in:
 
@@ -24,8 +24,12 @@ Szeitz, B. et al. (2021). Immunological landscape of breast carcinoma subtypes r
 11) Export results
 
 **References:**
+
 [1] Bhattacharya A, Hamilton AM, Furberg H, Pietzak E, Purdue MP, Troester MA, Hoadley KA, Love MI: An approach for normalization and quality control for NanoString RNA expression data. Brief Bioinform 2021, 22(3).
+
 [2] Bullard JH, Purdom E, Hansen KD, Dudoit S: Evaluation of statistical methods for normalization and differential expression in mRNA-Seq experiments. BMC Bioinformatics 2010, 11:94.
+
 [3] Risso D, Ngai J, Speed TP, Dudoit S: Normalization of RNA-seq data using factor analysis of control genes or samples. Nat Biotechnol 2014, 32(9):896-902.
+
 [4] Love MI, Huber W, Anders S: Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biol 2014, 15(12):550.
 
