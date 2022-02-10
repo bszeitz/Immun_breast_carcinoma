@@ -602,6 +602,10 @@ names(clusters.assign) <- gene.order
 
 Expr.norm.RUVg.scaled <- Expr.norm.RUVg.scaled[names(clusters.assign),row.names(Annotation)]
 
+
+row.ha <- rowAnnotation(`Log2\nExpression` = log2(AllResult[row.names(Expr.norm.RUVg.scaled),"LUMA_Met_vs_Ctrl_baseMean"]),
+                             col = list(`Log2\nExpression` = circlize::colorRamp2(c(2, 5, 7, 9, 15), c("darkgreen","lightgreen", "yellow", "orange", "brown"))))
+
 column.ha <- HeatmapAnnotation(df=Annotation[,-1],
                                which="col",
                                col=list(
@@ -661,11 +665,16 @@ ht <- Heatmap(Expr.norm.RUVg.scaled, top_annotation = column.ha,
               show_row_names = F,
               show_row_dend = F,
               row_split = clusters.assign,
+              right_annotation = row.ha,
               width = unit(15, "cm"),
               gap = unit(0.25, "cm"),
               column_title_gp = gpar(fontsize = 12),
               row_title_gp = gpar(fontsize = 5), row_names_gp = gpar(fontsize = 8), show_heatmap_legend = F)
 ht
+
+svg("C:/Users/User/PhD/NanoString/Breast Cancer - Immune Panel/Cancers submission/Clustering_Heatmap_simple_semiunsup2_vsJan2022.svg", width = 15, height = 10)
+ht
+dev.off()
 
 
 ###########################
