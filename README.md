@@ -2,7 +2,7 @@
 
 This is the custom R code used for the NanoString data analysis in:
 
-Szeitz, B. et al. (2021). Immunological landscape of breast carcinoma subtypes reveals different immune evading metastatic mechanisms between hormone receptor positive and triple negative cancers. Manuscript submitted for publication.
+Szeitz, B.; Pipek, O.; Kulka, J.; Szundi, C.; Rusz, O.; Tőkés, T.; Szász, A.M.; Kovács, K.A.; Pesti, A.; Ben Arie, T.B.; Gángó, A.; Fülöp, Z.; Drágus, E.; Vári-Kakas, S.A.; Tőkés, A.M. Investigating the Prognostic Relevance of Tumor Immune Microenvironment and Immune Gene Assembly in Breast Carcinoma Subtypes. Cancers 2022, 14, 1942. https://doi.org/10.3390/cancers14081942
 
 **This repository consists of 2 scripts:**
 
